@@ -1,0 +1,23 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:form="sap.ui.layout.form"
+xmlns:core="sap.ui.core"
+controllerName="view.MyPage"
+>
+   <Page title="Employee Form">
+      <content>
+            <form:SimpleForm>
+                   <form:title>
+                           <core:Title text="Please enter Employee data"/>
+                   </form:title>
+                   
+                   <form:content>
+                        <Label text="Employee Name"/>
+                        <Input value="Devender" id="idIp"/>
+                        <Label text="PIN Code"/>
+                        <Input id="idpin"/>
+                   </form:content>
+                   
+            </form:SimpleForm>
+      </content>
+   </Page>
+
+</mvc:View>
